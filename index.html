@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Soccorso 118 - Formazione</title>
+<link rel="manifest" href="./manifest.json">
+<meta name="theme-color" content="#0d1b2a">
+<style>
+  :root {
+    --bg: #0d1b2a;
+    --bg-card: #16283f;
+    --accent: #e63946;
+    --accent-soft: #ff6b6b;
+    --text: #f1f5f9;
+    --text-dim: #9db2ca;
+    --border: #24405f;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, sans-serif;
+    padding-bottom: 70px;
+  }
+  header {
+    padding: 16px;
+    background: var(--bg-card);
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  header h1 {
+    font-size: 18px;
+    margin: 0;
+  }
+  header .disclaimer {
+    font-size: 11px;
+    color: var(--text-dim);
+    margin-top: 4px;
+  }
+  main {
+    padding: 12px;
+  }
+  .apparato-list, .patologia-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 14px;
+  }
+  .card-btn {
+    width: 100%;
+    text-align: left;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 14px;
+    color: var(--text);
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .card-btn small {
+    color: var(--text-dim);
+    display: block;
+    font-weight: normal;
+    margin-top: 3px;
+  }
+  .back-btn {
+    background: none;
+    border: none;
+    color: var(--accent-soft);
+    font-size: 15px;
+    padding: 8px 0;
+    margin-bottom: 8px;
+  }
+  h2 { font-size: 20px; margin: 8px 0 4px; }
+  h3 {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--accent-soft);
+    margin: 18px 0 6px;
+  }
+  ul { margin: 4px 0; padding-left: 20px; }
+  li { margin-bottom: 4px; line-height: 1.4; }
+  p { line-height: 1.5; }
+  .farmaco {
+    border-left: 3px solid var(--accent);
+    padding-left: 10px;
+    margin-bottom: 10px;
+  }
+  .farmaco strong { display: block; }
+  .fonte {
+    font-size: 11px;
+    color: var(--text-dim);
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid var(--border);
+  }
+  nav.bottom {
+    position: fixed;
+    bottom: 0; left: 0; right: 0;
+    background: var(--bg-card);
+    border-top: 1px solid var(--border);
+    display: flex;
+    padding: 8px 0;
+  }
+  nav.bottom button {
+    flex: 1;
+    background: none;
+    border: none;
+    color: var(--text-dim);
+    font-size: 12px;
+    padding: 6px 0;
+  }
+  nav.bottom button.active { color: var(--accent-soft); }
+  .empty-state {
+    color: var(--text-dim);
+    text-align: center;
+    padding: 40px 20px;
+    font-size: 14px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>🚑 Soccorso 118 - Formazione</h1>
+  <div class="disclaimer">Supporto allo studio, non sostituisce corsi certificati e protocolli aziendali</div>
+</header>
+
+<main id="app"></main>
+
+<nav class="bottom">
+  <button data-view="apparati" class="active">Apparati</button>
+</nav>
+
+<script>
+// Elenco apparati: aggiungi qui una riga quando crei un nuovo file content/*.json
+const APPARATI = [
+  { id: "cardiovascolare", nome: "Cardiovascolare", file: "content/cardiovascolare.json" },
+  { id: "neurologico", nome: "Neurologico", file: "content/neurologico.json" },
+  { id: "metabolico-endocrino", nome: "Metabolico-Endocrino", file: "content/metabolico-endocrino.json" }
+];
+
+const app = document.getElementById("app");
+const cache = {};
+
+async function loadApparato(item) {
+  if (cache[item.id]) return cache[item.id];
+  const res = await fetch(item.file);
+  const data = await res.json();
+  cache[item.id] = data;
+  return data;
+}
+
+function renderApparatiList() {
+  app.innerHTML = `
+    <div class="apparato-list">
+      ${APPARATI.map(a => `
+        <button class="card-btn" data-apparato="${a.id}">
+          ${a.nome}
+        </button>
+      `).join("")}
+    </div>
+  `;
+  app.querySelectorAll("[data-apparato]").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const item = APPARATI.find(a => a.id === btn.dataset.apparato);
+      renderPatologieList(item);
+    });
+  });
+}
+
+async function renderPatologieList(item) {
+  app.innerHTML = `<div class="empty-state">Caricamento...</div>`;
+  const data = await loadApparato(item);
+  const patologie = data.patologie || [];
+
+  app.innerHTML = `
+    <button class="back-btn" id="backToApparati">‹ Apparati</button>
+    <h2>${data.apparato}</h2>
+    <div class="patologia-list">
+      ${patologie.length ? patologie.map((p, i) => `
+        <button class="card-btn" data-index="${i}">
+          ${p.nome}
+        </button>
+      `).join("") : `<div class="empty-state">Nessuna patologia ancora inserita in questo apparato</div>`}
+    </div>
+  `;
+
+  document.getElementById("backToApparati").addEventListener("click", renderApparatiList);
+  app.querySelectorAll("[data-index]").forEach(btn => {
+    btn.addEventListener("click", () => renderPatologiaDetail(item, data.patologie[btn.dataset.index]));
+  });
+}
+
+function renderPatologiaDetail(item, p) {
+  app.innerHTML = `
+    <button class="back-btn" id="backToList">‹ ${item.nome}</button>
+    <h2>${p.nome}</h2>
+
+    <h3>Eziologia</h3>
+    <p>${p.eziologia}</p>
+
+    ${p.fisiopatologia ? `
+    <h3>Fisiopatologia</h3>
+    <p>${p.fisiopatologia}</p>
+    ` : ""}
+
+    <h3>Semeiotica - Segni</h3>
+    <ul>${(p.semeiotica.segni || []).map(s => `<li>${s}</li>`).join("")}</ul>
+
+    <h3>Semeiotica - Sintomi</h3>
+    <ul>${(p.semeiotica.sintomi || []).map(s => `<li>${s}</li>`).join("")}</ul>
+
+    <h3>Farmaci correlati</h3>
+    ${(p.farmaci_correlati || []).map(f => `
+      <div class="farmaco">
+        <strong>${f.nome}</strong>
+        <div>${f.indicazione}</div>
+        <div class="fonte" style="border:none;padding:0;margin:2px 0 0">Fonte: ${f.fonte}</div>
+      </div>
+    `).join("")}
+
+    <div class="fonte">
+      Fonte scheda: ${p.fonte}<br>
+      Aggiornamento fonte: ${p.ultimo_aggiornamento_fonte}
+    </div>
+  `;
+  document.getElementById("backToList").addEventListener("click", () => renderPatologieList(item));
+}
+
+renderApparatiList();
+
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("./sw.js").catch(err => console.error("SW error:", err));
+  });
+}
+</script>
+
+</body>
+</html>
