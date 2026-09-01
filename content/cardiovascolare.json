@@ -1,0 +1,46 @@
+{
+  "apparato": "Cardiovascolare",
+  "patologie": [
+    {
+      "nome": "Infarto Miocardico Acuto (STEMI)",
+      "eziologia": "Occlusione trombotica acuta di un'arteria coronarica, solitamente su placca aterosclerotica instabile con rottura o erosione, che causa necrosi del tessuto miocardico a valle per ischemia prolungata.",
+      "fisiopatologia": "Il cuore e' innervato da fibre nervose viscerali (autonome), distinte da quelle somatiche che percepiscono il dolore di pelle e muscoli. Le fibre viscerali cardiache entrano nel midollo spinale ai livelli T1-T4, gli stessi livelli in cui entrano le fibre somatiche provenienti da braccio sinistro, mandibola, giugulo e dorso. Quando le due vie convergono sullo stesso neurone spinale di secondo ordine, il cervello interpreta il segnale viscerale cardiaco come se provenisse dalla zona somatica corrispondente, perche' e' l'interpretazione a cui e' piu' allenato (fenomeno del dolore riferito, spiegato dalla teoria della convergenza somato-viscerale). Questo spiega il pattern tipico: dolore centrale retrosternale (sede viscerale reale) con irradiazione a braccio sinistro, mandibola, giugulo e dorso, tutte zone che condividono i metameri spinali T1-T4 con il cuore. La sudorazione algida e il pallore derivano dall'attivazione del sistema simpatico in risposta allo stress ischemico; la dispnea e i rantoli, quando presenti, riflettono l'aumento della pressione telediastolica del ventricolo sinistro che si trasmette a ritroso al circolo polmonare.",
+      "semeiotica": {
+        "segni": [
+          "Sudorazione algida",
+          "Pallore cutaneo",
+          "Possibile ipotensione o segni di shock cardiogeno nelle forme estese",
+          "Aritmie all'ECG (sopraslivellamento ST nelle derivazioni corrispondenti alla zona colpita)",
+          "Possibile terzo tono, rantoli polmonari se congestione"
+        ],
+        "sintomi": [
+          "Dolore toracico retrosternale oppressivo, spesso irradiato a braccio sinistro, mandibola o dorso",
+          "Dolore non modificato da respiro o palpazione",
+          "Dispnea",
+          "Nausea, talvolta vomito",
+          "Senso di morte imminente (angor animi)",
+          "Nei diabetici e anziani: presentazioni atipiche o silenti"
+        ]
+      },
+      "farmaci_correlati": [
+        {
+          "nome": "Ossigeno",
+          "indicazione": "Solo se SpO2 < 90% o segni di distress respiratorio, secondo linee guida ESC 2023 (non routinario in normossia)",
+          "fonte": "ESC Guidelines for ACS 2023"
+        },
+        {
+          "nome": "Acido acetilsalicilico (ASA)",
+          "indicazione": "Antiaggregante, somministrazione precoce se non controindicato — dosaggio da protocollo aziendale/medico",
+          "fonte": "ESC Guidelines for ACS 2023"
+        },
+        {
+          "nome": "Nitroglicerina",
+          "indicazione": "Vasodilatatore per il dolore anginoso, controindicata in ipotensione e sospetto infarto ventricolo destro — dosaggio da protocollo aziendale/medico",
+          "fonte": "ESC Guidelines for ACS 2023"
+        }
+      ],
+      "fonte": "ESC Guidelines for the management of acute coronary syndromes, 2023",
+      "ultimo_aggiornamento_fonte": "2023"
+    }
+  ]
+}
