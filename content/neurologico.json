@@ -1,0 +1,35 @@
+{
+  "apparato": "Neurologico",
+  "patologie": [
+    {
+      "nome": "Ictus Ischemico",
+      "eziologia": "Interruzione improvvisa del flusso ematico cerebrale per occlusione di un vaso (trombotica, embolica o su base emodinamica), con ischemia e potenziale necrosi del tessuto cerebrale a valle. Rappresenta la maggioranza degli ictus rispetto alla forma emorragica.",
+      "semeiotica": {
+        "segni": [
+          "Asimmetria facciale (paralisi centrale, risparmio della fronte)",
+          "Deficit di forza motoria unilaterale (braccio/gamba)",
+          "Alterazione del linguaggio (afasia, disartria)",
+          "Deviazione dello sguardo",
+          "Possibile alterazione dello stato di coscienza in lesioni estese"
+        ],
+        "sintomi": [
+          "Insorgenza improvvisa dei deficit sopra descritti",
+          "Cefalea (meno tipica che nell'emorragico, ma possibile)",
+          "Vertigini, atassia se territorio vertebro-basilare",
+          "Disturbi visivi (emianopsia, diplopia)"
+        ]
+      },
+      "fisiopatologia": "L'occlusione del vaso crea una zona centrale di necrosi immediata (core ischemico) circondata da una penombra ischemica, dove il flusso e' ridotto ma le cellule restano vive per alcune ore se non funzionanti: e' questo il bersaglio del trattamento precoce (concetto 'time is brain'). Ogni segno elencato dipende dal territorio vascolare colpito. Asimmetria facciale e deficit motorio unilaterale: coinvolgimento della corteccia motoria o del fascio corticospinale, tipico del territorio dell'arteria cerebrale media (MCA); il risparmio della fronte distingue la paralisi centrale da quella periferica perche' la parte alta del nucleo del faciale riceve innervazione da entrambi gli emisferi. Afasia e disartria: interessamento delle aree del linguaggio (Broca, Wernicke), situate nell'emisfero dominante (di solito il sinistro), anch'esse nel territorio MCA. Deviazione dello sguardo: lesione dei campi oculari frontali, che nell'ictus tipicamente fa deviare lo sguardo verso il lato della lesione (il paziente 'guarda la lesione'). Alterazione della coscienza: si verifica in lesioni estese o quando e' coinvolto il tronco encefalico/talamo, sedi del sistema reticolare attivatore che mantiene lo stato di veglia. Vertigini e atassia: segni tipici del territorio vertebro-basilare, che irrora cervelletto e tronco encefalico, strutture deputate a equilibrio e coordinazione. Disturbi visivi come l'emianopsia: coinvolgimento del territorio dell'arteria cerebrale posteriore, che irrora la corteccia occipitale visiva. Insorgenza improvvisa: e' la firma tipica di un evento vascolare acuto, a differenza delle patologie neurologiche a evoluzione lenta. Cefalea: meno tipica che nell'emorragico perche' nell'ischemico non c'e' lo stiramento acuto delle strutture sensibili al dolore (meningi, vasi) causato dallo stravaso di sangue.",
+      "farmaci_correlati": [
+        {
+          "nome": "Nessun farmaco specifico in fase extraospedaliera",
+          "indicazione": "La gestione preospedaliera è basata su riconoscimento precoce (scala Cincinnati/FAST), monitoraggio parametri vitali e trasporto rapido a centro Stroke Unit per eventuale trombolisi/trombectomia in ospedale — non si somministrano farmaci specifici sul territorio salvo indicazione medica diretta",
+          "meccanismo_azione": "In ospedale, la trombolisi (es. alteplase) agisce attivando il plasminogeno a plasmina, che degrada la fibrina del trombo dissolvendolo; la trombectomia meccanica rimuove fisicamente il coagulo con un catetere. Entrambe mirano a ripristinare il flusso nel territorio di penombra prima che evolva verso la necrosi definitiva.",
+          "fonte": "Linee Guida SPREAD / AHA-ASA Stroke Guidelines"
+        }
+      ],
+      "fonte": "AHA/ASA Guidelines for Early Management of Acute Ischemic Stroke",
+      "ultimo_aggiornamento_fonte": "2019 (con aggiornamenti successivi)"
+    }
+  ]
+}
