@@ -1,0 +1,510 @@
+{
+  "apparato": "Cardiovascolare",
+  "patologie": [
+    {
+      "nome": "Infarto Miocardico Acuto (STEMI)",
+      "eziologia": "Occlusione trombotica acuta di un'arteria coronarica, solitamente su placca aterosclerotica instabile con rottura o erosione, che causa necrosi del tessuto miocardico a valle per ischemia prolungata.",
+      "semeiotica": {
+        "segni": [
+          "Sudorazione algida",
+          "Pallore cutaneo",
+          "Possibile ipotensione o segni di shock cardiogeno nelle forme estese",
+          "Aritmie all'ECG (sopraslivellamento ST nelle derivazioni corrispondenti alla zona colpita)",
+          "Possibile terzo tono, rantoli polmonari se congestione"
+        ],
+        "sintomi": [
+          "Dolore toracico retrosternale oppressivo, spesso irradiato a braccio sinistro, mandibola o dorso",
+          "Dolore non modificato da respiro o palpazione",
+          "Dispnea",
+          "Nausea, talvolta vomito",
+          "Senso di morte imminente (angor animi)",
+          "Nei diabetici e anziani: presentazioni atipiche o silenti"
+        ]
+      },
+      "fisiopatologia": "Ogni segno e sintomo di questa scheda ha una spiegazione meccanicistica precisa. Dolore retrosternale irradiato: il cuore e' innervato da fibre viscerali che entrano nel midollo spinale ai livelli T1-T4, gli stessi livelli delle fibre somatiche di braccio sinistro, mandibola, giugulo e dorso; quando le due vie convergono sullo stesso neurone spinale, il cervello interpreta il segnale cardiaco come proveniente dalla zona somatica corrispondente (dolore riferito, teoria della convergenza somato-viscerale). Dolore non modificato da respiro o palpazione: a differenza del dolore parietale (pleurico, muscolare, costale), il dolore ischemico cardiaco e' viscerale puro e non origina dalla parete toracica, quindi non cambia con i movimenti respiratori o la pressione manuale. Sudorazione algida e pallore: derivano dall'attivazione del sistema nervoso simpatico in risposta allo stress ischemico, con vasocostrizione periferica e stimolazione delle ghiandole sudoripare mediata dalle catecolamine circolanti. Ipotensione e shock cardiogeno: quando una porzione sufficientemente estesa di miocardio perde contrattilita', la gittata sistolica si riduce e con essa la pressione arteriosa. Sopraslivellamento ST: riflette l'ischemia transmurale (a tutto spessore della parete) che altera la ripolarizzazione cellulare nella zona colpita. Terzo tono e rantoli polmonari: l'aumento della pressione telediastolica del ventricolo sinistro, conseguenza della ridotta compliance del muscolo ischemico, si trasmette a ritroso al circolo polmonare causando congestione. Nausea e vomito: soprattutto negli infarti della parete inferiore, la stimolazione del nervo vago da parte del tessuto ischemico attiva un riflesso vago-vagale con sintomi gastrointestinali. Angor animi: e' la percezione soggettiva della gravita' dell'evento, legata sia al dolore intenso sia all'attivazione autonomica massiva. Presentazioni atipiche in diabetici e anziani: nei diabetici la neuropatia autonomica puo' attenuare la percezione del dolore ischemico (infarti silenti), negli anziani soglie di percezione del dolore alterate e comorbidita' multiple possono mascherare il quadro classico.",
+      "farmaci_correlati": [
+        {
+          "nome": "Ossigeno",
+          "indicazione": "Solo se SpO2 < 90% o segni di distress respiratorio, secondo linee guida ESC 2023 (non routinario in normossia)",
+          "meccanismo_azione": "Aumenta il contenuto di ossigeno disciolto e legato all'emoglobina nel sangue arterioso, riducendo l'ipossia tissutale nelle zone di miocardio gia' sofferenti per l'ischemia. In normossia non offre benefici dimostrati e puo' favorire vasocostrizione coronarica, da qui la raccomandazione a non somministrarlo di routine.",
+          "fonte": "ESC Guidelines for ACS 2023"
+        },
+        {
+          "nome": "Acido acetilsalicilico (ASA)",
+          "indicazione": "Antiaggregante, somministrazione precoce se non controindicato — dosaggio da protocollo aziendale/medico",
+          "meccanismo_azione": "Inibisce in modo irreversibile l'enzima COX-1 nelle piastrine, bloccando la sintesi di trombossano A2, una molecola che normalmente promuove l'aggregazione piastrinica. Con meno trombossano A2 le piastrine aderiscono meno tra loro, rallentando la crescita del trombo che sta occludendo la coronaria.",
+          "fonte": "ESC Guidelines for ACS 2023"
+        },
+        {
+          "nome": "Nitroglicerina",
+          "indicazione": "Vasodilatatore per il dolore anginoso, controindicata in ipotensione e sospetto infarto ventricolo destro — dosaggio da protocollo aziendale/medico",
+          "meccanismo_azione": "Viene convertita in ossido nitrico (NO) nella muscolatura liscia vascolare, che attiva l'enzima guanilato ciclasi aumentando i livelli di cGMP; questo provoca rilassamento della muscolatura liscia, soprattutto venosa (venodilatazione), riducendo il precarico cardiaco e quindi il lavoro e il consumo di ossigeno del cuore. Ha anche un effetto vasodilatatore diretto sulle coronarie, migliorando la perfusione della zona ischemica.",
+          "fonte": "ESC Guidelines for ACS 2023"
+        }
+      ],
+      "fonte": "ESC Guidelines for the management of acute coronary syndromes, 2023",
+      "ultimo_aggiornamento_fonte": "2023"
+    },
+    {
+      "nome": "Infarto Miocardico Senza Sopraslivellamento ST (NSTEMI)",
+      "eziologia": "Occlusione subtotale (non completa) di un'arteria coronarica, di solito per formazione di trombo su placca aterosclerotica instabile che pero' non chiude del tutto il vaso, oppure grave stenosi coronarica con squilibrio tra apporto e richiesta di ossigeno del miocardio (es. in tachicardia severa, anemia acuta, ipotensione prolungata). Il risultato e' necrosi miocardica limitata, tipicamente allo strato subendocardico.",
+      "semeiotica": {
+        "segni": [
+          "Sudorazione algida",
+          "Pallore cutaneo",
+          "Possibile ipotensione, meno frequentemente shock cardiogeno conclamato rispetto allo STEMI",
+          "ECG con sottoslivellamento del tratto ST o inversione dell'onda T, senza sopraslivellamento ST persistente",
+          "Frequenza cardiaca variabile, spesso tachicardia da attivazione simpatica"
+        ],
+        "sintomi": [
+          "Dolore toracico retrosternale oppressivo, talvolta meno intenso o meno prolungato rispetto allo STEMI, ma persistente",
+          "Dolore non modificato da respiro o palpazione",
+          "Dispnea",
+          "Nausea, sudorazione",
+          "Presentazioni atipiche piu' frequenti che nello STEMI, specialmente in donne, diabetici e anziani"
+        ]
+      },
+      "fisiopatologia": "La differenza chiave rispetto allo STEMI e' l'estensione della necrosi attraverso lo spessore della parete cardiaca, e questo spiega quasi tutte le differenze cliniche osservabili. Lo strato subendocardico (la parte piu' interna della parete cardiaca) e' la zona piu' vulnerabile all'ischemia perche' riceve perfusione coronarica prevalentemente in diastole ed e' sottoposto a maggiore tensione di parete rispetto agli strati esterni; quando l'occlusione coronarica e' solo parziale, o quando c'e' uno squilibrio tra richiesta e apporto di ossigeno, la necrosi si limita tipicamente a questo strato interno senza estendersi a tutto lo spessore (necrosi non transmurale). Sottoslivellamento ST o inversione T invece di sopraslivellamento: un'ischemia limitata allo strato subendocardico altera il vettore di ripolarizzazione in modo diverso rispetto a un'ischemia transmurale (a tutto spessore, come nello STEMI), producendo all'ECG un pattern di sottoslivellamento invece che di sopraslivellamento. Dolore retrosternale irradiato e sudorazione algida: seguono lo stesso meccanismo dello STEMI, cioe' convergenza somato-viscerale ai metameri T1-T4 per il dolore riferito e attivazione simpatica per sudorazione e pallore, perche' anche una necrosi subendocardica attiva le stesse vie nocicettive viscerali cardiache. Minore frequenza di shock cardiogeno conclamato: dato che la massa di miocardio necrotico e' generalmente inferiore rispetto a un infarto transmurale esteso, la riduzione della funzione contrattile complessiva e' spesso meno severa, anche se casi estesi di NSTEMI possono comunque causare compromissione emodinamica significativa. Presentazioni piu' spesso atipiche: il dolore nell'NSTEMI puo' essere meno intenso o piu' sfumato rispetto allo STEMI, il che rende piu' facile una sottostima del quadro, specialmente in categorie di pazienti (donne, diabetici, anziani) gia' predisposte a presentazioni atipiche per le ragioni gia' viste nello STEMI (neuropatia autonomica, soglie di percezione del dolore alterate).",
+      "farmaci_correlati": [
+        {
+          "nome": "Ossigeno",
+          "indicazione": "Solo se SpO2 < 90% o segni di distress respiratorio, secondo linee guida ESC 2023 (non routinario in normossia)",
+          "meccanismo_azione": "Aumenta il contenuto di ossigeno disponibile nel sangue arterioso per il miocardio ischemico quando presente ipossiemia; in normossia non offre benefici dimostrati.",
+          "fonte": "ESC Guidelines for ACS 2023"
+        },
+        {
+          "nome": "Acido acetilsalicilico (ASA)",
+          "indicazione": "Antiaggregante, somministrazione precoce se non controindicato — dosaggio da protocollo aziendale/medico",
+          "meccanismo_azione": "Inibisce in modo irreversibile la COX-1 piastrinica, bloccando la sintesi di trombossano A2 e riducendo l'aggregazione piastrinica, rallentando la crescita del trombo sulla placca instabile.",
+          "fonte": "ESC Guidelines for ACS 2023"
+        },
+        {
+          "nome": "Nitroglicerina",
+          "indicazione": "Vasodilatatore per il dolore anginoso persistente, controindicata in ipotensione — dosaggio da protocollo aziendale/medico",
+          "meccanismo_azione": "Convertita in ossido nitrico, attiva la guanilato ciclasi aumentando il cGMP e causando venodilatazione (riduzione del precarico e del lavoro cardiaco) e vasodilatazione coronarica diretta, migliorando la perfusione della zona ischemica.",
+          "fonte": "ESC Guidelines for ACS 2023"
+        }
+      ],
+      "interazioni_sistemiche": "A differenza dello STEMI, la strategia di riperfusione d'urgenza extraospedaliera (fibrinolisi) non e' generalmente indicata nell'NSTEMI: la gestione definitiva (coronarografia, eventuale angioplastica) viene stratificata in base al rischio e avviene tipicamente in ospedale in tempi che vanno da urgenti a differiti di qualche giorno, a seconda della classe di rischio del paziente.",
+      "fonte": "ESC Guidelines for the management of acute coronary syndromes, 2023",
+      "ultimo_aggiornamento_fonte": "2023"
+    },
+    {
+      "nome": "Fibrillazione Atriale (con varianti parossistica, persistente, permanente)",
+      "eziologia": "Aritmia sopraventricolare caratterizzata da attivazione elettrica atriale caotica e disorganizzata (400-600 impulsi/min), che sostituisce la normale contrazione atriale coordinata con una fibrillazione inefficace; la conduzione al ventricolo attraverso il nodo AV avviene in modo irregolare. Cause: ipertensione, valvulopatie (soprattutto mitraliche), ipertiroidismo, cardiopatia ischemica, scompenso cardiaco, eccesso di alcol, apnee notturne, eta' avanzata. Varianti: parossistica (si risolve spontaneamente entro 7 giorni), persistente (dura oltre 7 giorni, richiede intervento per la conversione), persistente di lunga durata, permanente (accettata come ritmo definitivo, non si tenta piu' la conversione).",
+      "semeiotica": {
+        "segni": [
+          "Polso irregolarmente irregolare (aritmico, di ampiezza variabile)",
+          "Frequenza cardiaca variabile (normale, tachicardica, o rallentata se in terapia)",
+          "Deficit di polso (differenza tra frequenza auscultata al cuore e polso periferico palpato)",
+          "Possibili segni di scompenso se frequenza ventricolare elevata e prolungata (rantoli, edemi)"
+        ],
+        "sintomi": [
+          "Cardiopalmo/palpitazioni",
+          "Spesso asintomatica, specialmente negli anziani",
+          "Dispnea da sforzo",
+          "Astenia, vertigini",
+          "Raramente sincope"
+        ]
+      },
+      "fisiopatologia": "Il polso irregolarmente irregolare nasce dal fatto che gli impulsi atriali caotici raggiungono il nodo AV in modo casuale, e il nodo AV ne conduce solo alcuni in modo non prevedibile per la sua refrattarieta' variabile: ne risultano intervalli R-R completamente irregolari e imprevedibili, diversi da altre aritmie irregolari ma con pattern ricorrente. Il deficit di polso compare quando, a frequenza ventricolare molto elevata, alcuni battiti hanno un riempimento diastolico cosi' breve che la gittata generata non produce un'onda di polso periferica palpabile, pur essendo un battito elettricamente presente. Le palpitazioni sono la percezione soggettiva di questa irregolarita'. La dispnea e i segni di scompenso derivano dalla perdita della contrazione atriale coordinata (il cosiddetto kick atriale), che puo' rappresentare fino al 20-30% della gittata cardiaca, un impatto particolarmente rilevante in cuori con ridotta compliance diastolica (ipertrofia, stenosi mitralica); a lungo andare una frequenza ventricolare elevata puo' anche indurre una tachicardiomiopatia.",
+      "farmaci_correlati": [
+        {
+          "nome": "Farmaci per il controllo della frequenza (beta-bloccanti, calcio-antagonisti non diidropiridinici)",
+          "indicazione": "Utilizzati in ospedale/da personale medico per rallentare la risposta ventricolare; in fase extraospedaliera la gestione e' principalmente monitoraggio e trasporto, salvo instabilita' emodinamica che richiede cardioversione elettrica urgente",
+          "meccanismo_azione": "Rallentano la conduzione attraverso il nodo AV aumentandone il periodo refrattario, riducendo il numero di impulsi atriali caotici che raggiungono i ventricoli",
+          "fonte": "ESC Guidelines for atrial fibrillation 2024"
+        },
+        {
+          "nome": "Anticoagulanti",
+          "indicazione": "Prescritti su base di stratificazione del rischio (es. score CHA2DS2-VASc), gestione medica non extraospedaliera in acuto",
+          "meccanismo_azione": "Riducono la formazione di trombi nell'atrio sinistro, dove il sangue ristagna per la contrazione atriale inefficace (specialmente nell'auricola sinistra), prevenendo eventi embolici come l'ictus",
+          "fonte": "ESC Guidelines for atrial fibrillation 2024"
+        }
+      ],
+      "interazioni_sistemiche": "La stasi ematica nell'atrio sinistro non contraente favorisce la formazione di trombi che possono embolizzare, tipicamente a livello cerebrale causando ictus ischemico: e' la ragione clinica principale per cui la fibrillazione atriale richiede una valutazione del rischio tromboembolico ed eventuale anticoagulazione.",
+      "fonte": "ESC Guidelines for the diagnosis and management of atrial fibrillation 2024",
+      "ultimo_aggiornamento_fonte": "2024"
+    },
+    {
+      "nome": "Pericardite Acuta",
+      "eziologia": "Infiammazione del pericardio, la membrana sierosa che avvolge il cuore. Nella maggior parte dei casi nei paesi sviluppati e' di origine virale o idiopatica; altre cause: post-infartuale (sindrome di Dressler), post-chirurgica, autoimmune, neoplastica, uremica, batterica o tubercolare.",
+      "semeiotica": {
+        "segni": [
+          "Sfregamento pericardico all'auscultazione (rumore caratteristico a tre tempi)",
+          "Possibile tachicardia",
+          "Febbre",
+          "Nei casi con versamento importante, possibili segni di tamponamento cardiaco"
+        ],
+        "sintomi": [
+          "Dolore toracico acuto, tipicamente pleuritico (peggiora con respiro profondo e tosse)",
+          "Dolore che si modifica con la posizione (migliora piegandosi in avanti, peggiora da sdraiati)",
+          "Talvolta irradiato al trapezio",
+          "Febbricola, malessere generale"
+        ]
+      },
+      "fisiopatologia": "Il dolore pleuritico e posizionale distingue nettamente la pericardite dal dolore ischemico coronarico: l'infiammazione coinvolge anche la pleura parietale adiacente e il diaframma, innervato dal nervo frenico che origina dagli stessi metameri cervicali C3-C5 che innervano la regione del trapezio, il che spiega l'irradiazione a quella sede. A differenza del dolore viscerale puro dell'ischemia cardiaca, questo dolore risponde ai movimenti respiratori e alla posizione: piegarsi in avanti riduce la tensione sul pericardio infiammato a contatto con le strutture adiacenti, sdraiarsi la aumenta. Lo sfregamento pericardico e' generato dallo sfregamento dei due foglietti pericardici, resi ruvidi dall'infiammazione, durante i movimenti cardiaci. Febbre e malessere riflettono la risposta infiammatoria sistemica, tipica soprattutto nelle forme virali.",
+      "farmaci_correlati": [
+        {
+          "nome": "FANS (es. ibuprofene)",
+          "indicazione": "Trattamento di prima linea, non urgente in fase extraospedaliera salvo instabilita' (sospetto tamponamento)",
+          "meccanismo_azione": "Inibiscono la ciclossigenasi (COX) riducendo la sintesi di prostaglandine, mediatori chiave dell'infiammazione e del dolore",
+          "fonte": "ESC Guidelines for pericardial diseases 2015"
+        },
+        {
+          "nome": "Colchicina",
+          "indicazione": "Associata ai FANS per ridurre il rischio di recidiva, gestione medica non extraospedaliera",
+          "meccanismo_azione": "Interferisce con la funzione dei microtubuli nei neutrofili, riducendone la migrazione e l'attivita' infiammatoria",
+          "fonte": "ESC Guidelines for pericardial diseases 2015"
+        }
+      ],
+      "fonte": "ESC Guidelines for the diagnosis and management of pericardial diseases 2015",
+      "ultimo_aggiornamento_fonte": "2015"
+    },
+    {
+      "nome": "Cardiomiopatia da Stress (Tako-Tsubo)",
+      "eziologia": "Disfunzione ventricolare sinistra acuta e transitoria, tipicamente scatenata da un intenso stress emotivo o fisico (da cui il nome popolare 'sindrome del cuore infranto'), piu' frequente in donne in post-menopausa. Coinvolge una massiccia scarica di catecolamine che causa uno stordimento transitorio del miocardio, con acinesia/discinesia della porzione apicale del ventricolo sinistro e ipercinesia compensatoria della base.",
+      "semeiotica": {
+        "segni": [
+          "Possibile ipotensione",
+          "ECG che mima uno STEMI (sopraslivellamento ST)",
+          "Possibili aritmie",
+          "Nei casi severi, segni di scompenso acuto o shock cardiogeno"
+        ],
+        "sintomi": [
+          "Dolore toracico acuto indistinguibile clinicamente da un infarto",
+          "Dispnea",
+          "Spesso preceduto da un evento scatenante emotivo o fisico intenso"
+        ]
+      },
+      "fisiopatologia": "La presentazione clinica ed elettrocardiografica e' quasi sovrapponibile a un infarto miocardico acuto, e non e' casuale: si ritiene che l'eccesso di catecolamine circolanti causi una tossicita' diretta sui miocardiociti e/o uno spasmo del microcircolo coronarico, producendo una sofferenza ischemica funzionale pur in assenza, nella maggior parte dei casi, di un'occlusione coronarica epicardica significativa. La regione apicale del ventricolo sinistro sembra particolarmente vulnerabile per la maggiore densita' di recettori beta-adrenergici rispetto alla base, il che spiegherebbe perche' lo stordimento miocardico colpisca prevalentemente questa zona. Questo e' il motivo per cui, sul campo, la condizione va gestita con lo stesso livello di allerta di un sospetto STEMI fino a conferma diagnostica ospedaliera, tipicamente con coronarografia che esclude l'occlusione coronarica.",
+      "farmaci_correlati": [
+        {
+          "nome": "Gestione sovrapponibile al sospetto STEMI",
+          "indicazione": "Ossigeno se necessario, monitoraggio continuo, trasporto urgente: la distinzione definitiva richiede accertamenti ospedalieri",
+          "meccanismo_azione": "Non esiste una terapia farmacologica specifica extraospedaliera; le catecolamine esogene vengono evitate quando possibile per il loro ruolo patogenetico nella condizione stessa, decisione medica",
+          "fonte": "ESC Position Statement on Takotsubo Syndrome 2018"
+        }
+      ],
+      "fonte": "ESC Position Statement on Takotsubo Syndrome 2018",
+      "ultimo_aggiornamento_fonte": "2018"
+    },
+    {
+      "nome": "Fibrillazione Ventricolare (FV)",
+      "eziologia": "Aritmia caotica e disorganizzata dei ventricoli, con attivazione elettrica completamente scoordinata che rende impossibile una contrazione meccanica efficace; e' una delle principali cause di arresto cardiaco improvviso. Cause: cardiopatia ischemica acuta (la piu' comune), cardiomiopatie, canalopatie (es. sindrome di Brugada, QT lungo), gravi squilibri elettrolitici, folgorazione.",
+      "semeiotica": {
+        "segni": [
+          "Paziente incosciente",
+          "Assenza di polso palpabile",
+          "Assenza di respiro efficace, o gasping agonico",
+          "Tracciato ECG caotico senza complessi QRS riconoscibili",
+          "Cute pallida o cianotica"
+        ],
+        "sintomi": [
+          "Non applicabile: condizione corrispondente ad arresto cardiaco, paziente incosciente"
+        ]
+      },
+      "fisiopatologia": "Multiple onde di depolarizzazione elettrica caotiche e disorganizzate percorrono simultaneamente il miocardio ventricolare senza alcuna coordinazione, impedendo la formazione di un'onda di contrazione sincrona: il risultato meccanico e' l'assenza totale di gittata cardiaca efficace, equivalente funzionalmente a un cuore fermo pur in presenza di intensa attivita' elettrica disorganizzata. L'assenza di polso e di coscienza derivano direttamente dall'assenza di perfusione cerebrale e sistemica. Il respiro agonico (gasping), quando presente nei primi minuti, e' un riflesso del tronco encefalico che persiste brevemente nonostante l'assenza di circolo efficace, e non va scambiato per respiro valido. E' l'unica condizione, insieme alla tachicardia ventricolare senza polso, in cui la defibrillazione precoce e' l'intervento salvavita determinante, perche' elettricamente resetta il miocardio permettendo al nodo del seno di riprendere il comando del ritmo.",
+      "farmaci_correlati": [
+        {
+          "nome": "Defibrillazione (intervento primario non farmacologico)",
+          "indicazione": "Trattamento salvavita immediato in FV/TV senza polso",
+          "meccanismo_azione": "Eroga una corrente elettrica che depolarizza simultaneamente la massa critica del miocardio, interrompendo i circuiti di rientro caotici e permettendo al nodo del seno di riprendere il comando del ritmo",
+          "fonte": "ERC Guidelines Resuscitation 2021"
+        },
+        {
+          "nome": "Adrenalina",
+          "indicazione": "Farmaco cardine dell'ALS in arresto cardiaco, dosaggio da protocollo ALS aziendale",
+          "meccanismo_azione": "Agonista alfa e beta-adrenergico; l'effetto alfa-1 causa vasocostrizione periferica, aumentando la pressione di perfusione coronarica e cerebrale durante la RCP",
+          "fonte": "ERC Guidelines Resuscitation 2021"
+        },
+        {
+          "nome": "Amiodarone",
+          "indicazione": "In FV/TV refrattaria alla defibrillazione, dosaggio da protocollo ALS aziendale",
+          "meccanismo_azione": "Antiaritmico che prolunga il potenziale d'azione e il periodo refrattario del tessuto cardiaco, stabilizzando il ritmo",
+          "fonte": "ERC Guidelines Resuscitation 2021"
+        }
+      ],
+      "fonte": "European Resuscitation Council Guidelines 2021 - Adult Advanced Life Support",
+      "ultimo_aggiornamento_fonte": "2021"
+    },
+    {
+      "nome": "Tachicardia Ventricolare (TV)",
+      "eziologia": "Successione di almeno 3 battiti ectopici ventricolari consecutivi a frequenza superiore a 100 bpm, originati da un focolaio ectopico o da un circuito di rientro nel tessuto ventricolare, spesso su cicatrice post-infartuale o cardiomiopatia strutturale. Puo' essere sostenuta (oltre 30 secondi o che richiede intervento) o non sostenuta, monomorfa (QRS uniformi) o polimorfa (QRS variabili, es. torsione di punta).",
+      "semeiotica": {
+        "segni": [
+          "Tachicardia a QRS largo (oltre 120ms) all'ECG",
+          "Polso palpabile presente o assente a seconda della stabilita' emodinamica",
+          "Se senza polso: quadro sovrapponibile ad arresto cardiaco"
+        ],
+        "sintomi": [
+          "Se con polso: cardiopalmo, dispnea, dolore toracico, vertigini, presincope",
+          "Se senza polso: perdita di coscienza immediata"
+        ]
+      },
+      "fisiopatologia": "Nella TV, a differenza della FV, l'attivazione elettrica ventricolare, pur originando da un punto anomalo, mantiene una certa organizzazione e sincronia, permettendo talvolta una contrazione meccanica efficiente e un polso palpabile, anche se la frequenza molto elevata riduce il tempo di riempimento diastolico compromettendo comunque la gittata. Il QRS e' largo perche' l'impulso, originando nel miocardio ventricolare e non nel sistema di conduzione specializzato (fascio di His e branche), si propaga piu' lentamente cellula per cellula invece che attraverso le vie di conduzione rapide. Quando la frequenza e' molto elevata o il substrato cardiaco molto compromesso, il riempimento diastolico diventa insufficiente a generare una gittata efficace: la TV degenera funzionalmente in un quadro identico alla FV (TV senza polso), da trattare allo stesso modo con defibrillazione immediata.",
+      "farmaci_correlati": [
+        {
+          "nome": "Amiodarone (se con polso e stabile)",
+          "indicazione": "Sotto guida medica in TV stabile",
+          "meccanismo_azione": "Prolunga il periodo refrattario del tessuto cardiaco, stabilizzando il ritmo",
+          "fonte": "ERC Guidelines Resuscitation 2021"
+        },
+        {
+          "nome": "Cardioversione elettrica/defibrillazione (se instabile o senza polso)",
+          "indicazione": "Intervento primario in TV instabile o senza polso",
+          "meccanismo_azione": "Eroga una corrente elettrica che resetta l'attivita' elettrica cardiaca, interrompendo il circuito di rientro o il focolaio ectopico",
+          "fonte": "ERC Guidelines Resuscitation 2021"
+        }
+      ],
+      "fonte": "European Resuscitation Council Guidelines 2021 - Adult Advanced Life Support",
+      "ultimo_aggiornamento_fonte": "2021"
+    },
+    {
+      "nome": "Blocco Atrioventricolare di I grado",
+      "eziologia": "Ritardo nella conduzione dell'impulso elettrico attraverso il nodo atrioventricolare, senza che alcun impulso venga bloccato: ogni onda P e' seguita da un QRS, solo con ritardo. Cause: aumento del tono vagale (frequente negli atleti), farmaci (beta-bloccanti, calcio-antagonisti, digossina), malattia degenerativa del sistema di conduzione, ischemia.",
+      "semeiotica": {
+        "segni": [
+          "Intervallo PR allungato (oltre 200ms) all'ECG",
+          "Ritmo regolare"
+        ],
+        "sintomi": [
+          "Generalmente assente",
+          "Occasionalmente lieve astenia se il ritardo e' marcato"
+        ]
+      },
+      "fisiopatologia": "Il nodo AV introduce fisiologicamente una breve pausa tra contrazione atriale e ventricolare, necessaria per il completo riempimento ventricolare prima della sistole; nel blocco di primo grado questo ritardo e' semplicemente accentuato per una conduzione rallentata attraverso il tessuto nodale, ma ogni impulso atriale, seppur in ritardo, viene comunque condotto ai ventricoli. Per questo la condizione e' quasi sempre clinicamente silente: la sequenza contrattile atrio-ventricolare resta preservata, solo con un intervallo piu' lungo del normale tra le due fasi.",
+      "farmaci_correlati": [
+        {
+          "nome": "Nessun trattamento specifico generalmente richiesto",
+          "indicazione": "Se sintomatico, valutare sospensione di farmaci bradicardizzanti, decisione medica",
+          "meccanismo_azione": "Non applicabile: condizione generalmente benigna che non richiede intervento farmacologico specifico",
+          "fonte": "ESC Guidelines on cardiac pacing and cardiac resynchronization therapy 2021"
+        }
+      ],
+      "fonte": "ESC Guidelines on cardiac pacing and cardiac resynchronization therapy 2021",
+      "ultimo_aggiornamento_fonte": "2021"
+    },
+    {
+      "nome": "Blocco Atrioventricolare di II grado (Mobitz I e Mobitz II)",
+      "eziologia": "Blocco intermittente della conduzione AV, in cui alcuni impulsi atriali non vengono condotti ai ventricoli. Mobitz tipo I (Luciani-Wenckebach): dovuto solitamente a un blocco funzionale a livello del nodo AV, spesso da ipertono vagale o farmaci, generalmente benigno. Mobitz tipo II: dovuto a un blocco strutturale piu' distale nel sistema His-Purkinje, indica una malattia piu' seria del sistema di conduzione ed e' a maggior rischio di progressione improvvisa a blocco completo.",
+      "semeiotica": {
+        "segni": [
+          "Mobitz I: allungamento progressivo dell'intervallo PR nei battiti successivi fino a un'onda P non condotta, poi il ciclo ricomincia",
+          "Mobitz II: intervallo PR costante nei battiti condotti, con onde P improvvisamente non condotte senza allungamento progressivo, spesso QRS largo associato"
+        ],
+        "sintomi": [
+          "Mobitz I: spesso asintomatico o lievi vertigini",
+          "Mobitz II: piu' spesso sintomatico con vertigini, presincope, sincope, per il rischio di pause ventricolari improvvise"
+        ]
+      },
+      "fisiopatologia": "Nel Mobitz I, il tessuto del nodo AV si affatica progressivamente a ogni battito successivo (fenomeno di decremento della conduzione), impiegando un tempo di conduzione via via piu' lungo fino a quando un impulso non riesce piu' a passare, dopodiche' il nodo si riprende e il ciclo ricomincia: questo spiega l'allungamento progressivo del PR seguito da un battito bloccato. Nel Mobitz II il blocco avviene piu' in basso, nel sistema di conduzione specializzato (fascio di His o branche), un tessuto che non mostra il fenomeno di affaticamento progressivo del nodo AV: gli impulsi vengono condotti normalmente (PR costante) fino a quando improvvisamente e senza preavviso uno non passa affatto, il che rende il Mobitz II meno prevedibile e piu' pericoloso, con rischio di progressione improvvisa verso un blocco completo anche in assenza di segni premonitori.",
+      "farmaci_correlati": [
+        {
+          "nome": "Atropina (misura temporanea)",
+          "indicazione": "In Mobitz II o forme sintomatiche, dosaggio da protocollo aziendale/medico",
+          "meccanismo_azione": "Blocca i recettori muscarinici, antagonizzando il tono vagale e favorendo la conduzione AV nodale; efficace soprattutto nei blocchi a livello del nodo AV, meno efficace nei blocchi infranodali come spesso e' il Mobitz II",
+          "fonte": "ESC Guidelines on cardiac pacing and cardiac resynchronization therapy 2021"
+        }
+      ],
+      "interazioni_sistemiche": "Il trattamento definitivo del Mobitz II e' tipicamente il pacing elettrico (elettrostimolazione), da valutazione medica, per l'alto rischio di progressione improvvisa a blocco completo.",
+      "fonte": "ESC Guidelines on cardiac pacing and cardiac resynchronization therapy 2021",
+      "ultimo_aggiornamento_fonte": "2021"
+    },
+    {
+      "nome": "Blocco Atrioventricolare di III grado (completo)",
+      "eziologia": "Interruzione completa della conduzione tra atri e ventricoli: nessun impulso atriale raggiunge i ventricoli. Cause: malattia degenerativa del sistema di conduzione, infarto miocardico (specialmente inferiore), farmaci, cause congenite.",
+      "semeiotica": {
+        "segni": [
+          "Dissociazione completa tra onde P e complessi QRS (frequenze atriale e ventricolare indipendenti)",
+          "Frequenza ventricolare bassa sostenuta da un ritmo di scappamento (giunzionale o ventricolare)",
+          "Possibile ipotensione, segni di bassa portata"
+        ],
+        "sintomi": [
+          "Astenia marcata",
+          "Vertigini",
+          "Sincope (crisi di Adams-Stokes)",
+          "Dispnea da sforzo",
+          "Nei casi severi, arresto cardiocircolatorio"
+        ]
+      },
+      "fisiopatologia": "Quando la conduzione AV e' completamente interrotta, gli atri continuano a battere al proprio ritmo comandato dal nodo del seno, mentre i ventricoli, non ricevendo piu' alcun impulso dall'alto, sono sostenuti da un ritmo di scappamento generato da un pacemaker sussidiario piu' in basso nel sistema di conduzione: giunzionale (piu' affidabile, frequenza relativamente piu' alta, circa 40-60 bpm) oppure ventricolare (piu' lento, 20-40 bpm, e meno affidabile). Questo spiega la dissociazione completa tra onde P e QRS visibile all'ECG e la frequenza ventricolare bassa. La sincope (crisi di Adams-Stokes) si verifica tipicamente nel momento di transizione tra l'insorgenza del blocco e l'avvio del ritmo di scappamento, un intervallo in cui non c'e' alcuna attivita' ventricolare efficace e la perfusione cerebrale si interrompe bruscamente.",
+      "farmaci_correlati": [
+        {
+          "nome": "Atropina (misura temporanea)",
+          "indicazione": "Dosaggio da protocollo aziendale/medico",
+          "meccanismo_azione": "Blocco vagale; efficacia limitata se il blocco e' infranodale, nel sistema His-Purkinje, come spesso accade nel blocco completo",
+          "fonte": "ESC Guidelines on cardiac pacing and cardiac resynchronization therapy 2021"
+        }
+      ],
+      "interazioni_sistemiche": "Il trattamento definitivo e' l'elettrostimolazione (pacing transcutaneo in emergenza, poi pacemaker definitivo), decisione e attuazione medica.",
+      "fonte": "ESC Guidelines on cardiac pacing and cardiac resynchronization therapy 2021",
+      "ultimo_aggiornamento_fonte": "2021"
+    },
+    {
+      "nome": "Extrasistoli (singole, bigeminismo, trigeminismo)",
+      "eziologia": "Battiti cardiaci ectopici prematuri, originati da un focolaio al di fuori del normale pacemaker fisiologico (nodo del seno), sopraventricolari (atriali o giunzionali) o ventricolari. Possono verificarsi in cuori sani (stress, caffeina, alcol, nicotina, ansia) o essere espressione di cardiopatia strutturale sottostante.",
+      "semeiotica": {
+        "segni": [
+          "Battito prematuro anticipato sul ritmo di base, spesso seguito da una pausa compensatoria",
+          "QRS stretto se sopraventricolare, largo e bizzarro se ventricolare",
+          "Bigeminismo: alternanza regolare di un battito normale seguito da un'extrasistole, ripetuta costantemente",
+          "Trigeminismo: pattern ripetuto di due battiti normali seguiti da un'extrasistole"
+        ],
+        "sintomi": [
+          "Percezione di salto o tuffo al cuore",
+          "Cardiopalmo",
+          "Sensazione di battito mancante",
+          "Spesso completamente asintomatiche, riscontrate casualmente"
+        ]
+      },
+      "fisiopatologia": "Un focolaio ectopico si depolarizza spontaneamente prima che l'impulso fisiologico proveniente dal nodo del seno arrivi, generando un battito anticipato rispetto al ritmo atteso: questo spiega la sensazione soggettiva di salto del battito. La pausa compensatoria che spesso segue e' dovuta al fatto che il nodo del seno, non essendo stato resettato dall'impulso ectopico (specialmente nelle extrasistoli ventricolari), continua il proprio ciclo regolare, per cui il battito fisiologico successivo arriva in orario rispetto al ciclo originale, dando l'impressione di una pausa piu' lunga seguita da un battito percepito come piu' forte per il maggior riempimento diastolico accumulato. Il bigeminismo e il trigeminismo sono semplicemente pattern ripetitivi e regolari dello stesso fenomeno, in cui il focolaio ectopico si attiva con periodicita' fissa rispetto ai battiti sinusali; la rilevanza clinica dipende dalla frequenza, dalla presenza di cardiopatia strutturale sottostante e dai sintomi associati, piu' che dal pattern in se'.",
+      "farmaci_correlati": [
+        {
+          "nome": "Generalmente nessun trattamento acuto extraospedaliero",
+          "indicazione": "Se isolate e paziente stabile; nelle forme sintomatiche o frequenti gestione (es. beta-bloccanti) definita dal cardiologo dopo inquadramento",
+          "meccanismo_azione": "Non applicabile in fase extraospedaliera per le forme isolate asintomatiche",
+          "fonte": "ESC Guidelines for the management of patients with ventricular arrhythmias 2022"
+        }
+      ],
+      "fonte": "ESC Guidelines for the management of patients with ventricular arrhythmias 2022",
+      "ultimo_aggiornamento_fonte": "2022"
+    },
+    {
+      "nome": "Blocco di Branca Destro (BBDx)",
+      "eziologia": "Interruzione o rallentamento della conduzione nella branca destra del fascio di His, che normalmente attiva rapidamente il ventricolo destro. Puo' essere un riscontro isolato benigno, specialmente in soggetti giovani sani, oppure associato a patologie come embolia polmonare acuta, cardiopatie congenite, sovraccarico del ventricolo destro, cardiopatia ischemica.",
+      "semeiotica": {
+        "segni": [
+          "QRS largo (oltre 120ms) con pattern caratteristico rSR' a orecchie di coniglio in V1",
+          "Sdoppiamento del secondo tono cardiaco all'auscultazione"
+        ],
+        "sintomi": [
+          "Generalmente assenti se isolato",
+          "Se presenti, legati alla patologia sottostante (es. dispnea in embolia polmonare)"
+        ]
+      },
+      "fisiopatologia": "Quando la branca destra non conduce, il ventricolo destro non viene attivato attraverso la rapida via di conduzione specializzata, ma viene depolarizzato piu' tardivamente per propagazione cellula-cellula dell'impulso proveniente dal ventricolo sinistro (attivato normalmente attraverso la branca sinistra intatta) attraverso il setto interventricolare; questa attivazione ritardata e lenta allunga la durata complessiva del QRS e ne modifica la morfologia nelle derivazioni che guardano verso il ventricolo destro (V1-V2), producendo il caratteristico pattern a doppia gobba. Lo sdoppiamento del secondo tono riflette il fatto che la chiusura della valvola polmonare, il cui evento meccanico segue l'attivazione elettrica ritardata del ventricolo destro, avviene percettibilmente piu' tardi rispetto alla chiusura della valvola aortica.",
+      "farmaci_correlati": [
+        {
+          "nome": "Nessun trattamento specifico per il blocco in se'",
+          "indicazione": "Gestione mirata alla causa sottostante se presente (es. embolia polmonare), decisione medica",
+          "meccanismo_azione": "Non applicabile: il blocco stesso non richiede terapia farmacologica",
+          "fonte": "AHA/ACC/HRS standard ECG interpretation guidelines"
+        }
+      ],
+      "fonte": "AHA/ACC/HRS Recommendations for the Standardization and Interpretation of the ECG",
+      "ultimo_aggiornamento_fonte": "da verificare edizione corrente"
+    },
+    {
+      "nome": "Blocco di Branca Sinistro (BBSx)",
+      "eziologia": "Interruzione o rallentamento della conduzione nella branca sinistra del fascio di His. A differenza del blocco destro, e' quasi sempre espressione di una cardiopatia strutturale sottostante significativa: cardiopatia ischemica, ipertensione di lunga data, cardiomiopatie, valvulopatie aortiche.",
+      "semeiotica": {
+        "segni": [
+          "QRS largo (oltre 120ms) con onde R larghe e slargate in V5-V6, assenza di onda Q settale fisiologica",
+          "Puo' mascherare o mimare segni ECG di ischemia, rendendo piu' difficile la diagnosi di infarto sull'ECG standard"
+        ],
+        "sintomi": [
+          "Dipendono dalla cardiopatia sottostante (es. dispnea, astenia se scompenso associato)",
+          "Il blocco in se' non produce sintomi diretti"
+        ]
+      },
+      "fisiopatologia": "Quando la branca sinistra non conduce, il ventricolo sinistro, la camera cardiaca a maggior massa muscolare responsabile della gittata sistemica, viene attivato tardivamente per propagazione lenta dell'impulso dal ventricolo destro attraverso il setto, invece che attraverso la rapida rete del Purkinje: questo produce un QRS molto allargato con un pattern di attivazione anomalo e desincronizzato, in cui alcune porzioni del ventricolo si contraggono in ritardo rispetto ad altre (dissincronia meccanica), riducendo l'efficienza della contrazione complessiva. Per questo un BBSx di nuova insorgenza e' considerato un segno prognosticamente rilevante, spesso correlato a cardiopatia strutturale importante. La sua presenza altera il pattern di ripolarizzazione basale al punto da mascherare i classici segni ECG di ischemia acuta, motivo per cui un BBSx di nuova insorgenza con sintomi tipici di sindrome coronarica acuta viene trattato con lo stesso livello di allerta di uno STEMI conclamato.",
+      "farmaci_correlati": [
+        {
+          "nome": "Nessun trattamento specifico per il blocco in se'",
+          "indicazione": "Nei casi con scompenso cardiaco associato e dissincronia meccanica significativa puo' essere indicata la terapia di resincronizzazione cardiaca, decisione specialistica cardiologica",
+          "meccanismo_azione": "Non applicabile: il blocco stesso non richiede terapia farmacologica",
+          "fonte": "AHA/ACC/HRS standard ECG interpretation guidelines"
+        }
+      ],
+      "fonte": "AHA/ACC/HRS Recommendations for the Standardization and Interpretation of the ECG",
+      "ultimo_aggiornamento_fonte": "da verificare edizione corrente"
+    },
+    {
+      "nome": "Tamponamento Cardiaco",
+      "eziologia": "Accumulo di liquido (versamento pericardico), sangue o pus nello spazio pericardico in quantita' o velocita' tale da comprimere il cuore e impedirne il riempimento diastolico efficace. Cause: pericardite, trauma toracico, dissezione aortica, rottura di parete post-infartuale, neoplasie, procedure invasive cardiache.",
+      "semeiotica": {
+        "segni": [
+          "Triade di Beck: ipotensione, toni cardiaci ovattati/lontani, turgore delle giugulari",
+          "Polso paradosso (riduzione marcata della pressione arteriosa sistolica durante l'inspirazione)",
+          "Tachicardia compensatoria",
+          "Segni di bassa portata/shock"
+        ],
+        "sintomi": [
+          "Dispnea marcata",
+          "Senso di oppressione toracica",
+          "Ansia, agitazione",
+          "Nei casi acuti, rapida evoluzione verso shock e arresto cardiocircolatorio"
+        ]
+      },
+      "fisiopatologia": "Il pericardio e' una struttura fibrosa relativamente poco distensibile; quando il liquido si accumula rapidamente, a differenza di un accumulo lento e cronico che il pericardio puo' in parte compensare distendendosi, anche volumi relativamente piccoli generano un rapido aumento della pressione intrapericardica, che comprime dall'esterno le camere cardiache, in particolare quelle a parete piu' sottile e minore pressione interna (atri e ventricolo destro), impedendone il riempimento diastolico. Questo spiega ogni elemento della triade di Beck: il ridotto riempimento ventricolare riduce la gittata sistolica e quindi la pressione arteriosa (ipotensione); il liquido pericardico interposto tra cuore e parete toracica attutisce la trasmissione dei suoni cardiaci (toni ovattati); l'impedito ritorno venoso al cuore destro causa accumulo di sangue nelle vene giugulari (turgore giugulare). Il polso paradosso e' dovuto al fatto che durante l'inspirazione il ritorno venoso al cuore destro aumenta fisiologicamente, ma nello spazio pericardico limitato e gia' sotto pressione questo maggiore afflusso a destra spinge il setto interventricolare verso sinistra, riducendo ulteriormente il riempimento del ventricolo sinistro gia' compromesso e causando un calo esagerato della pressione sistolica durante l'inspirazione. La tachicardia e' un meccanismo compensatorio riflesso per mantenere una gittata minima nonostante la ridotta gittata sistolica per battito.",
+      "farmaci_correlati": [
+        {
+          "nome": "Infusione di liquidi (supporto temporaneo)",
+          "indicazione": "In attesa del trattamento definitivo, cautamente, secondo protocollo medico",
+          "meccanismo_azione": "Sostiene temporaneamente il precarico cardiaco, ma non risolve la causa meccanica della compressione",
+          "fonte": "ESC Guidelines for pericardial diseases 2015"
+        }
+      ],
+      "interazioni_sistemiche": "Nessun farmaco risolve la causa meccanica: il trattamento definitivo e' la pericardiocentesi (drenaggio del liquido pericardico) da parte di personale medico qualificato. Condizione a rischio di vita immediato che richiede trasporto rapidissimo.",
+      "fonte": "ESC Guidelines for the diagnosis and management of pericardial diseases 2015",
+      "ultimo_aggiornamento_fonte": "2015"
+    },
+    {
+      "nome": "Sindrome di Wolff-Parkinson-White (WPW)",
+      "eziologia": "Presenza congenita di una via accessoria di conduzione elettrica (fascio di Kent) che collega direttamente atri e ventricoli bypassando il nodo AV, creando un substrato per tachicardie da rientro atrioventricolare e, nei casi con fibrillazione atriale concomitante, un rischio specifico di conduzione molto rapida verso il ventricolo con possibile degenerazione in fibrillazione ventricolare.",
+      "semeiotica": {
+        "segni": [
+          "ECG basale con intervallo PR corto e onda delta (impastamento della porzione iniziale del QRS)",
+          "Episodi di tachicardia parossistica a QRS stretto (rientro ortodromico) o QRS largo (conduzione antidromica o FA pre-eccitata)"
+        ],
+        "sintomi": [
+          "Episodi ricorrenti di cardiopalmo a insorgenza e termine improvvisi",
+          "Talvolta dispnea, vertigini",
+          "Raramente sincope",
+          "Nei casi con FA pre-eccitata, rischio di rapida instabilita' emodinamica"
+        ]
+      },
+      "fisiopatologia": "La via accessoria conduce l'impulso piu' velocemente del nodo AV normale, che fisiologicamente rallenta la conduzione, per cui parte del ventricolo viene attivato precocemente attraverso questa via, producendo la caratteristica onda delta che impasta l'inizio del QRS, e accorciando l'intervallo PR perche' il ritardo fisiologico del nodo AV viene in parte bypassato. La presenza di due vie di conduzione con proprieta' elettriche diverse crea le condizioni ideali per un circuito di rientro: un impulso puo' scendere per una via e risalire per l'altra, autoalimentandosi in un circuito che genera tachicardia sostenuta. Il pericolo maggiore si verifica quando il paziente sviluppa fibrillazione atriale: normalmente il nodo AV agisce da filtro che limita il numero di impulsi atriali caotici che raggiungono il ventricolo, ma la via accessoria spesso non ha questa proprieta' filtrante, permettendo una conduzione molto piu' rapida e diretta degli impulsi fibrillatori ai ventricoli, con rischio concreto di degenerazione in fibrillazione ventricolare.",
+      "farmaci_correlati": [
+        {
+          "nome": "Manovre vagali e adenosina (in tachicardia da rientro stabile)",
+          "indicazione": "Sotto guida medica",
+          "meccanismo_azione": "Rallentano transitoriamente la conduzione attraverso il nodo AV, interrompendo il circuito di rientro",
+          "fonte": "ESC Guidelines for supraventricular tachycardia 2019"
+        }
+      ],
+      "interazioni_sistemiche": "Importante: nella fibrillazione atriale pre-eccitata (con onda delta visibile), i farmaci che bloccano selettivamente il nodo AV (digossina, verapamil, in alcuni casi beta-bloccanti) sono controindicati perche' favoriscono la conduzione preferenziale attraverso la via accessoria, aumentando il rischio di degenerazione in fibrillazione ventricolare. Il trattamento risolutivo definitivo e' l'ablazione transcatetere della via accessoria.",
+      "fonte": "ESC Guidelines for the management of patients with supraventricular tachycardia 2019",
+      "ultimo_aggiornamento_fonte": "2019"
+    },
+    {
+      "nome": "Sindrome di Brugada",
+      "eziologia": "Canalopatia genetica, piu' comunemente da mutazioni del gene SCN5A che codifica per i canali del sodio cardiaci, che altera l'elettrofisiologia delle cellule del miocardio ventricolare destro, in particolare a livello del tratto di efflusso, predisponendo ad aritmie ventricolari maligne e morte cardiaca improvvisa in cuori strutturalmente normali, tipicamente in soggetti giovani-adulti altrimenti sani.",
+      "semeiotica": {
+        "segni": [
+          "Pattern ECG caratteristico tipo 1: sopraslivellamento ST a tenda con onda T negativa in V1-V2, patognomonico se spontaneo o slatentizzato da farmaci specifici",
+          "Possibili episodi di tachicardia/fibrillazione ventricolare polimorfa"
+        ],
+        "sintomi": [
+          "Nella maggior parte dei casi asintomatica fino all'evento aritmico",
+          "Sincope inspiegata, spesso durante il sonno o il riposo, o in concomitanza con febbre",
+          "Palpitazioni",
+          "Nei casi piu' gravi, arresto cardiaco improvviso come prima manifestazione"
+        ]
+      },
+      "fisiopatologia": "La disfunzione dei canali del sodio altera l'equilibrio delle correnti ioniche durante le prime fasi del potenziale d'azione nelle cellule del tratto di efflusso del ventricolo destro, creando una marcata dispersione della ripolarizzazione tra epicardio ed endocardio in questa regione. Questa eterogeneita' elettrica locale e' il substrato che genera sia il caratteristico pattern ECG (sopraslivellamento ST a tenda, dovuto alla differenza di voltaggio tra le diverse porzioni della parete ventricolare durante la ripolarizzazione) sia le extrasistoli che possono innescare aritmie ventricolari polimorfe potenzialmente letali. La tipica insorgenza degli eventi durante il sonno o il riposo, piuttosto che sotto sforzo a differenza di molte altre canalopatie, riflette la particolare sensibilita' di questo substrato elettrico all'aumento del tono vagale che caratterizza gli stati di riposo, rallentando ulteriormente la conduzione e favorendo le condizioni per l'aritmia. La febbre e' un noto fattore scatenante perche' la temperatura elevata altera ulteriormente la cinetica dei canali del sodio gia' disfunzionanti.",
+      "farmaci_correlati": [
+        {
+          "nome": "Isoproterenolo (in tempesta aritmica, sotto controllo specialistico)",
+          "indicazione": "Gestione della fase acuta di tachicardia/fibrillazione ventricolare ricorrente, esclusivamente medica specialistica",
+          "meccanismo_azione": "Agonista beta-adrenergico che, aumentando la corrente di calcio, contrasta lo squilibrio ionico caratteristico della sindrome",
+          "fonte": "ESC Guidelines for ventricular arrhythmias and prevention of sudden cardiac death 2022"
+        }
+      ],
+      "interazioni_sistemiche": "I farmaci che bloccano i canali del sodio (molti antiaritmici di classe I, alcuni anestetici locali) sono controindicati perche' possono slatentizzare o aggravare il pattern ECG e il rischio aritmico. Il trattamento definitivo per i pazienti ad alto rischio e' l'impianto di un defibrillatore cardioverter (ICD).",
+      "fonte": "ESC Guidelines for the management of patients with ventricular arrhythmias and the prevention of sudden cardiac death 2022",
+      "ultimo_aggiornamento_fonte": "2022"
+    }
+  ]
+}
