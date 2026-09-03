@@ -1,0 +1,180 @@
+{
+  "apparato": "Metabolico-Endocrino",
+  "patologie": [
+    {
+      "nome": "Crisi Ipoglicemica",
+      "eziologia": "Riduzione della glicemia plasmatica al di sotto dei livelli normali, più comunemente per eccesso relativo di insulina o ipoglicemizzanti orali in pazienti diabetici (dose eccessiva, pasto saltato, sforzo fisico non compensato), digiuno prolungato, o abuso di alcol.",
+      "semeiotica": {
+        "segni": [
+          "Sudorazione profusa",
+          "Pallore",
+          "Tachicardia",
+          "Tremori",
+          "Alterazione dello stato di coscienza fino al coma nelle forme severe",
+          "Possibili convulsioni"
+        ],
+        "sintomi": [
+          "Sensazione di fame improvvisa",
+          "Ansia, irritabilità, confusione",
+          "Cefalea",
+          "Visione offuscata",
+          "Debolezza"
+        ]
+      },
+      "fisiopatologia": "Il glucosio e' il substrato energetico quasi esclusivo del cervello, che non puo' immagazzinarlo in quantita' significative ne' usare acidi grassi come alternativa immediata. I segni e sintomi seguono due fasi meccanicistiche distinte. Fase adrenergica (segni di allarme precoce): quando la glicemia scende, l'organismo attiva una risposta ormonale d'emergenza con rilascio di adrenalina, glucagone e cortisolo per stimolare il fegato a liberare glucosio; l'attivazione simpatica da adrenalina spiega direttamente sudorazione profusa, tremori, tachicardia, pallore (vasocostrizione periferica) e la sensazione di fame improvvisa, che e' il segnale che spinge istintivamente ad assumere cibo. Fase neuroglicopenica (segni tardivi e piu' gravi): se la glicemia continua a scendere, il cervello entra in un deficit energetico diretto che altera progressivamente le funzioni cognitive: ansia, irritabilita' e confusione riflettono il malfunzionamento delle aree corticali superiori; cefalea e visione offuscata derivano dalla sofferenza energetica di specifiche aree cerebrali; debolezza riflette il deficit energetico anche a livello di controllo motorio; nei casi piu' gravi il deficit energetico diffuso porta a convulsioni (scariche neuronali anomale da instabilita' di membrana) e infine al coma per compromissione dello stato di coscienza. Questo doppio meccanismo spiega perche' i sintomi adrenergici iniziali siano un campanello d'allarme utile: precedono quelli neuroglicopenici piu' gravi, dando una finestra di tempo per intervenire con zuccheri semplici prima che il quadro peggiori.",
+      "farmaci_correlati": [
+        {
+          "nome": "Glucosio orale (se paziente cosciente e collaborante)",
+          "indicazione": "Somministrazione di zuccheri semplici per via orale in paziente vigile con riflesso di deglutizione conservato",
+          "meccanismo_azione": "Gli zuccheri semplici vengono assorbiti rapidamente dalla mucosa gastrointestinale ed entrano in circolo, innalzando la glicemia plasmatica e ripristinando il substrato energetico disponibile per il metabolismo cerebrale in tempi relativamente brevi.",
+          "fonte": "Linee Guida IRC / protocolli 118"
+        },
+        {
+          "nome": "Glucosio endovena (se paziente non cosciente o non collaborante)",
+          "indicazione": "Riservato a personale sanitario abilitato, dosaggio da protocollo aziendale/medico",
+          "meccanismo_azione": "L'infusione diretta in circolo innalza la glicemia plasmatica immediatamente, bypassando l'assorbimento gastrointestinale: e' la via piu' rapida disponibile, essenziale quando il paziente non e' in grado di deglutire in sicurezza.",
+          "fonte": "Linee Guida IRC / protocolli 118"
+        },
+        {
+          "nome": "Glucagone intramuscolo",
+          "indicazione": "Alternativa quando non è disponibile accesso venoso, in paziente non cosciente — dosaggio da protocollo aziendale/medico",
+          "meccanismo_azione": "Il glucagone si lega a specifici recettori epatici e stimola la glicogenolisi (scomposizione delle riserve di glicogeno in glucosio) e la gluconeogenesi, inducendo il fegato a rilasciare glucosio in circolo entro pochi minuti. Richiede riserve di glicogeno epatico sufficienti per essere efficace (puo' essere meno efficace, ad esempio, in caso di digiuno prolungato o abuso cronico di alcol).",
+          "fonte": "Linee Guida IRC / protocolli 118"
+        }
+      ],
+      "fonte": "Italian Resuscitation Council - Linee guida gestione emergenze metaboliche",
+      "ultimo_aggiornamento_fonte": "da verificare con edizione corrente IRC"
+    },
+    {
+      "nome": "Iperkaliemia",
+      "eziologia": "Eccesso di potassio plasmatico (oltre 5.5 mEq/L), da ridotta escrezione renale (insufficienza renale, la causa piu' comune), farmaci (ACE-inibitori, sartani, risparmiatori di potassio), rilascio massivo da cellule danneggiate (rabdomiolisi, sindrome da lisi tumorale, ustioni estese), acidosi metabolica che sposta il potassio dall'interno delle cellule al plasma.",
+      "semeiotica": {
+        "segni": [
+          "Alterazioni ECG progressive: onde T appuntite e strette, allargamento del QRS, appiattimento/scomparsa dell'onda P, infine pattern sinusoidale preterminale",
+          "Bradicardia",
+          "Aritmie ventricolari fino ad asistolia nei casi severi"
+        ],
+        "sintomi": [
+          "Astenia",
+          "Parestesie",
+          "Crampi muscolari",
+          "Nei casi severi, paralisi flaccida ascendente",
+          "Palpitazioni"
+        ]
+      },
+      "fisiopatologia": "Il potassio e' determinante per il potenziale di membrana a riposo delle cellule eccitabili, nervose e muscolari, incluso il miocardio. Un eccesso di potassio extracellulare riduce il gradiente di concentrazione transmembrana, portando il potenziale di membrana a riposo piu' vicino alla soglia di depolarizzazione. Inizialmente questo aumenta l'eccitabilita' cellulare, da cui le onde T appuntite che riflettono una ripolarizzazione ventricolare accelerata; ma con l'aggravarsi dell'iperkaliemia i canali del sodio voltaggio-dipendenti, necessari per l'avvio del potenziale d'azione, diventano progressivamente inattivati per la depolarizzazione cronica della membrana, rallentando la conduzione elettrica: questo spiega l'allargamento progressivo del QRS e la scomparsa dell'onda P, particolarmente sensibile la conduzione atriale, fino al pattern sinusoidale che precede l'arresto cardiaco per asistolia o fibrillazione ventricolare. Lo stesso meccanismo di alterata eccitabilita' di membrana spiega la debolezza muscolare e, nei casi piu' severi, la paralisi flaccida a livello del muscolo scheletrico.",
+      "farmaci_correlati": [
+        {
+          "nome": "Calcio gluconato/cloruro",
+          "indicazione": "Misura di stabilizzazione rapida ma transitoria, gestione medica",
+          "meccanismo_azione": "Non riduce la kaliemia ma antagonizza direttamente l'effetto del potassio sulla membrana cellulare cardiaca, stabilizzando il potenziale di membrana e riducendo il rischio aritmico immediato",
+          "fonte": "ERC Guidelines 2021 - Cardiac arrest in special circumstances"
+        },
+        {
+          "nome": "Insulina con glucosio",
+          "indicazione": "Gestione medica, il glucosio previene l'ipoglicemia indotta dall'insulina",
+          "meccanismo_azione": "L'insulina attiva la pompa Na-K-ATPasi spingendo il potassio dall'esterno all'interno delle cellule, riducendo la kaliemia plasmatica",
+          "fonte": "ERC Guidelines 2021 - Cardiac arrest in special circumstances"
+        },
+        {
+          "nome": "Beta-2 agonisti (es. salbutamolo)",
+          "indicazione": "Gestione medica, come misura aggiuntiva",
+          "meccanismo_azione": "Stimolano la pompa Na-K-ATPasi favorendo l'ingresso di potassio nelle cellule",
+          "fonte": "ERC Guidelines 2021 - Cardiac arrest in special circumstances"
+        }
+      ],
+      "interazioni_sistemiche": "L'iperkaliemia altera direttamente l'elettrofisiologia cardiaca (vedi ECG) e puo' precipitare aritmie ventricolari maligne fino all'arresto cardiaco; la rimozione definitiva del potassio in eccesso richiede diuretici, resine chelanti o dialisi, tutti interventi ospedalieri.",
+      "fonte": "European Resuscitation Council Guidelines 2021 - Cardiac arrest in special circumstances",
+      "ultimo_aggiornamento_fonte": "2021"
+    },
+    {
+      "nome": "Ipokaliemia",
+      "eziologia": "Riduzione del potassio plasmatico (sotto 3.5 mEq/L), da perdite gastrointestinali (vomito, diarrea), perdite renali (diuretici, iperaldosteronismo), scarso apporto, spostamento intracellulare (alcalosi, eccesso di insulina, farmaci beta-2 agonisti).",
+      "semeiotica": {
+        "segni": [
+          "Alterazioni ECG: appiattimento dell'onda T, comparsa di onda U, sottoslivellamento ST, nei casi severi allungamento del QT con rischio di torsione di punta",
+          "Aritmie",
+          "Ipotensione",
+          "Ridotta motilita' intestinale (ileo)"
+        ],
+        "sintomi": [
+          "Astenia",
+          "Crampi muscolari",
+          "Debolezza fino a paralisi nei casi severi",
+          "Stipsi",
+          "Palpitazioni"
+        ]
+      },
+      "fisiopatologia": "La riduzione del potassio extracellulare aumenta il gradiente transmembrana e iperpolarizza il potenziale di membrana a riposo delle cellule eccitabili, rendendole meno eccitabili e rallentando la ripolarizzazione cardiaca: questo spiega l'appiattimento dell'onda T, che riflette proprio la ripolarizzazione ventricolare rallentata, e la comparsa dell'onda U, attribuita a un prolungamento della ripolarizzazione delle fibre del Purkinje. Il prolungamento della ripolarizzazione allunga anche l'intervallo QT complessivo, creando le condizioni elettrofisiologiche per l'insorgenza di una torsione di punta, una pericolosa aritmia ventricolare polimorfa. A livello di muscolo scheletrico e liscio, l'iperpolarizzazione di membrana riduce analogamente l'eccitabilita', spiegando debolezza muscolare e la ridotta motilita' della muscolatura liscia intestinale, cioe' ileo e stipsi.",
+      "farmaci_correlati": [
+        {
+          "nome": "Supplementazione di potassio (orale nei casi lievi, endovenosa nei severi)",
+          "indicazione": "Richiede sempre monitoraggio ECG continuo in somministrazione endovenosa per il rischio di somministrazione troppo rapida, decisione e attuazione medica",
+          "meccanismo_azione": "Ripristina direttamente la concentrazione plasmatica di potassio e il gradiente transmembrana fisiologico",
+          "fonte": "ERC Guidelines 2021 - Cardiac arrest in special circumstances"
+        }
+      ],
+      "fonte": "European Resuscitation Council Guidelines 2021 - Cardiac arrest in special circumstances",
+      "ultimo_aggiornamento_fonte": "2021"
+    },
+    {
+      "nome": "Ipernatriemia",
+      "eziologia": "Eccesso di sodio plasmatico relativo all'acqua corporea (oltre 145 mEq/L), piu' spesso da perdita di acqua libera superiore alla perdita di sodio (febbre, sudorazione profusa, diabete insipido, ridotto accesso all'acqua specialmente in anziani e bambini) piuttosto che da un vero eccesso di sodio introdotto.",
+      "semeiotica": {
+        "segni": [
+          "Segni di disidratazione: mucose secche, ridotto turgore cutaneo",
+          "Alterazione dello stato di coscienza fino al coma nei casi severi",
+          "Possibili convulsioni",
+          "Febbre associata alla causa sottostante"
+        ],
+        "sintomi": [
+          "Sete intensa, se il meccanismo della sete e' integro",
+          "Irritabilita', letargia",
+          "Debolezza",
+          "Nei casi severi, confusione marcata"
+        ]
+      },
+      "fisiopatologia": "L'aumento della concentrazione di sodio nel liquido extracellulare crea un gradiente osmotico che richiama acqua dall'interno delle cellule verso l'esterno per riequilibrare le osmolarita' tra i due compartimenti, causando una disidratazione cellulare relativa. Questo fenomeno e' particolarmente rilevante e pericoloso a livello delle cellule cerebrali, dove la perdita rapida di acqua intracellulare provoca una riduzione del volume cerebrale che puo' causare la rottura di vasi sanguigni con conseguente emorragia, specialmente in caso di correzione troppo rapida in senso inverso per fenomeno di rebound, e spiega direttamente l'alterazione dello stato di coscienza, l'irritabilita' e le convulsioni osservate nei casi severi. La sete intensa e' la risposta fisiologica normale all'aumentata osmolarita' plasmatica, rilevata dagli osmocettori ipotalamici.",
+      "farmaci_correlati": [
+        {
+          "nome": "Reidratazione con soluzioni ipotoniche",
+          "indicazione": "Correzione GRADUALE e attentamente monitorata, decisione e gestione strettamente medica e ospedaliera",
+          "meccanismo_azione": "Ripristina progressivamente l'equilibrio osmotico tra i compartimenti; una correzione troppo rapida rischia di causare edema cerebrale per lo spostamento opposto di acqua verso le cellule ormai adattate all'iperosmolarita'",
+          "fonte": "ERC Guidelines 2021 - Cardiac arrest in special circumstances"
+        }
+      ],
+      "fonte": "European Resuscitation Council Guidelines 2021 - Cardiac arrest in special circumstances",
+      "ultimo_aggiornamento_fonte": "2021"
+    },
+    {
+      "nome": "Iponatriemia",
+      "eziologia": "Riduzione del sodio plasmatico (sotto 135 mEq/L), da eccesso relativo di acqua rispetto al sodio (es. SIADH, potomania, scompenso cardiaco, cirrosi, insufficienza renale) o da vera perdita di sodio (diuretici, perdite gastrointestinali, insufficienza surrenalica) con reintegro di sola acqua.",
+      "semeiotica": {
+        "segni": [
+          "Nei casi severi e ad insorgenza rapida: alterazione dello stato di coscienza fino al coma",
+          "Convulsioni",
+          "Segni di edema cerebrale nei casi piu' gravi"
+        ],
+        "sintomi": [
+          "Nausea",
+          "Cefalea",
+          "Confusione",
+          "Letargia",
+          "Crampi muscolari",
+          "Nei casi lievi/cronici, spesso paucisintomatica"
+        ]
+      },
+      "fisiopatologia": "La riduzione della concentrazione di sodio nel liquido extracellulare crea un gradiente osmotico opposto a quello dell'ipernatriemia: l'acqua si sposta dall'esterno verso l'interno delle cellule per riequilibrare le osmolarita', causando un rigonfiamento cellulare. Questo e' particolarmente pericoloso a livello cerebrale, dove il cranio rigido non permette un'espansione di volume significativa: l'edema delle cellule cerebrali aumenta la pressione intracranica, spiegando cefalea, confusione, e nei casi severi convulsioni e coma per compressione delle strutture cerebrali e riduzione della perfusione. La velocita' di insorgenza e' determinante per la gravita' clinica: un'iponatriemia che si sviluppa rapidamente, nell'arco di ore, non lascia tempo al cervello di attivare meccanismi di compenso osmotico, risultando molto piu' sintomatica di una iponatriemia cronica dello stesso grado, in cui il cervello si e' progressivamente adattato.",
+      "farmaci_correlati": [
+        {
+          "nome": "Soluzione salina ipertonica (nei casi severi sintomatici) o restrizione idrica (nelle forme croniche)",
+          "indicazione": "Correzione GRADUALE e attentamente monitorata in ambiente ospedaliero",
+          "meccanismo_azione": "Ripristina progressivamente l'equilibrio osmotico; una correzione troppo rapida rischia una grave complicanza neurologica, la mielinolisi centrale pontina, per lo spostamento troppo rapido di acqua fuori dalle cellule cerebrali ormai adattate",
+          "fonte": "European Clinical Practice Guideline on Hyponatraemia 2014"
+        }
+      ],
+      "fonte": "European Clinical Practice Guideline on Diagnosis and Treatment of Hyponatraemia 2014",
+      "ultimo_aggiornamento_fonte": "2014"
+    }
+  ]
+}
