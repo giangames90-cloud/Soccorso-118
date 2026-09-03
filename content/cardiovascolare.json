@@ -1,0 +1,93 @@
+{
+  "apparato": "Cardiovascolare",
+  "patologie": [
+    {
+      "nome": "Infarto Miocardico Acuto (STEMI)",
+      "eziologia": "Occlusione trombotica acuta di un'arteria coronarica, solitamente su placca aterosclerotica instabile con rottura o erosione, che causa necrosi del tessuto miocardico a valle per ischemia prolungata.",
+      "semeiotica": {
+        "segni": [
+          "Sudorazione algida",
+          "Pallore cutaneo",
+          "Possibile ipotensione o segni di shock cardiogeno nelle forme estese",
+          "Aritmie all'ECG (sopraslivellamento ST nelle derivazioni corrispondenti alla zona colpita)",
+          "Possibile terzo tono, rantoli polmonari se congestione"
+        ],
+        "sintomi": [
+          "Dolore toracico retrosternale oppressivo, spesso irradiato a braccio sinistro, mandibola o dorso",
+          "Dolore non modificato da respiro o palpazione",
+          "Dispnea",
+          "Nausea, talvolta vomito",
+          "Senso di morte imminente (angor animi)",
+          "Nei diabetici e anziani: presentazioni atipiche o silenti"
+        ]
+      },
+      "fisiopatologia": "Ogni segno e sintomo di questa scheda ha una spiegazione meccanicistica precisa. Dolore retrosternale irradiato: il cuore e' innervato da fibre viscerali che entrano nel midollo spinale ai livelli T1-T4, gli stessi livelli delle fibre somatiche di braccio sinistro, mandibola, giugulo e dorso; quando le due vie convergono sullo stesso neurone spinale, il cervello interpreta il segnale cardiaco come proveniente dalla zona somatica corrispondente (dolore riferito, teoria della convergenza somato-viscerale). Dolore non modificato da respiro o palpazione: a differenza del dolore parietale (pleurico, muscolare, costale), il dolore ischemico cardiaco e' viscerale puro e non origina dalla parete toracica, quindi non cambia con i movimenti respiratori o la pressione manuale. Sudorazione algida e pallore: derivano dall'attivazione del sistema nervoso simpatico in risposta allo stress ischemico, con vasocostrizione periferica e stimolazione delle ghiandole sudoripare mediata dalle catecolamine circolanti. Ipotensione e shock cardiogeno: quando una porzione sufficientemente estesa di miocardio perde contrattilita', la gittata sistolica si riduce e con essa la pressione arteriosa. Sopraslivellamento ST: riflette l'ischemia transmurale (a tutto spessore della parete) che altera la ripolarizzazione cellulare nella zona colpita. Terzo tono e rantoli polmonari: l'aumento della pressione telediastolica del ventricolo sinistro, conseguenza della ridotta compliance del muscolo ischemico, si trasmette a ritroso al circolo polmonare causando congestione. Nausea e vomito: soprattutto negli infarti della parete inferiore, la stimolazione del nervo vago da parte del tessuto ischemico attiva un riflesso vago-vagale con sintomi gastrointestinali. Angor animi: e' la percezione soggettiva della gravita' dell'evento, legata sia al dolore intenso sia all'attivazione autonomica massiva. Presentazioni atipiche in diabetici e anziani: nei diabetici la neuropatia autonomica puo' attenuare la percezione del dolore ischemico (infarti silenti), negli anziani soglie di percezione del dolore alterate e comorbidita' multiple possono mascherare il quadro classico.",
+      "farmaci_correlati": [
+        {
+          "nome": "Ossigeno",
+          "indicazione": "Solo se SpO2 < 90% o segni di distress respiratorio, secondo linee guida ESC 2023 (non routinario in normossia)",
+          "meccanismo_azione": "Aumenta il contenuto di ossigeno disciolto e legato all'emoglobina nel sangue arterioso, riducendo l'ipossia tissutale nelle zone di miocardio gia' sofferenti per l'ischemia. In normossia non offre benefici dimostrati e puo' favorire vasocostrizione coronarica, da qui la raccomandazione a non somministrarlo di routine.",
+          "fonte": "ESC Guidelines for ACS 2023"
+        },
+        {
+          "nome": "Acido acetilsalicilico (ASA)",
+          "indicazione": "Antiaggregante, somministrazione precoce se non controindicato — dosaggio da protocollo aziendale/medico",
+          "meccanismo_azione": "Inibisce in modo irreversibile l'enzima COX-1 nelle piastrine, bloccando la sintesi di trombossano A2, una molecola che normalmente promuove l'aggregazione piastrinica. Con meno trombossano A2 le piastrine aderiscono meno tra loro, rallentando la crescita del trombo che sta occludendo la coronaria.",
+          "fonte": "ESC Guidelines for ACS 2023"
+        },
+        {
+          "nome": "Nitroglicerina",
+          "indicazione": "Vasodilatatore per il dolore anginoso, controindicata in ipotensione e sospetto infarto ventricolo destro — dosaggio da protocollo aziendale/medico",
+          "meccanismo_azione": "Viene convertita in ossido nitrico (NO) nella muscolatura liscia vascolare, che attiva l'enzima guanilato ciclasi aumentando i livelli di cGMP; questo provoca rilassamento della muscolatura liscia, soprattutto venosa (venodilatazione), riducendo il precarico cardiaco e quindi il lavoro e il consumo di ossigeno del cuore. Ha anche un effetto vasodilatatore diretto sulle coronarie, migliorando la perfusione della zona ischemica.",
+          "fonte": "ESC Guidelines for ACS 2023"
+        }
+      ],
+      "fonte": "ESC Guidelines for the management of acute coronary syndromes, 2023",
+      "ultimo_aggiornamento_fonte": "2023"
+    },
+    {
+      "nome": "Infarto Miocardico Senza Sopraslivellamento ST (NSTEMI)",
+      "eziologia": "Occlusione subtotale (non completa) di un'arteria coronarica, di solito per formazione di trombo su placca aterosclerotica instabile che pero' non chiude del tutto il vaso, oppure grave stenosi coronarica con squilibrio tra apporto e richiesta di ossigeno del miocardio (es. in tachicardia severa, anemia acuta, ipotensione prolungata). Il risultato e' necrosi miocardica limitata, tipicamente allo strato subendocardico.",
+      "semeiotica": {
+        "segni": [
+          "Sudorazione algida",
+          "Pallore cutaneo",
+          "Possibile ipotensione, meno frequentemente shock cardiogeno conclamato rispetto allo STEMI",
+          "ECG con sottoslivellamento del tratto ST o inversione dell'onda T, senza sopraslivellamento ST persistente",
+          "Frequenza cardiaca variabile, spesso tachicardia da attivazione simpatica"
+        ],
+        "sintomi": [
+          "Dolore toracico retrosternale oppressivo, talvolta meno intenso o meno prolungato rispetto allo STEMI, ma persistente",
+          "Dolore non modificato da respiro o palpazione",
+          "Dispnea",
+          "Nausea, sudorazione",
+          "Presentazioni atipiche piu' frequenti che nello STEMI, specialmente in donne, diabetici e anziani"
+        ]
+      },
+      "fisiopatologia": "La differenza chiave rispetto allo STEMI e' l'estensione della necrosi attraverso lo spessore della parete cardiaca, e questo spiega quasi tutte le differenze cliniche osservabili. Lo strato subendocardico (la parte piu' interna della parete cardiaca) e' la zona piu' vulnerabile all'ischemia perche' riceve perfusione coronarica prevalentemente in diastole ed e' sottoposto a maggiore tensione di parete rispetto agli strati esterni; quando l'occlusione coronarica e' solo parziale, o quando c'e' uno squilibrio tra richiesta e apporto di ossigeno, la necrosi si limita tipicamente a questo strato interno senza estendersi a tutto lo spessore (necrosi non transmurale). Sottoslivellamento ST o inversione T invece di sopraslivellamento: un'ischemia limitata allo strato subendocardico altera il vettore di ripolarizzazione in modo diverso rispetto a un'ischemia transmurale (a tutto spessore, come nello STEMI), producendo all'ECG un pattern di sottoslivellamento invece che di sopraslivellamento. Dolore retrosternale irradiato e sudorazione algida: seguono lo stesso meccanismo dello STEMI, cioe' convergenza somato-viscerale ai metameri T1-T4 per il dolore riferito e attivazione simpatica per sudorazione e pallore, perche' anche una necrosi subendocardica attiva le stesse vie nocicettive viscerali cardiache. Minore frequenza di shock cardiogeno conclamato: dato che la massa di miocardio necrotico e' generalmente inferiore rispetto a un infarto transmurale esteso, la riduzione della funzione contrattile complessiva e' spesso meno severa, anche se casi estesi di NSTEMI possono comunque causare compromissione emodinamica significativa. Presentazioni piu' spesso atipiche: il dolore nell'NSTEMI puo' essere meno intenso o piu' sfumato rispetto allo STEMI, il che rende piu' facile una sottostima del quadro, specialmente in categorie di pazienti (donne, diabetici, anziani) gia' predisposte a presentazioni atipiche per le ragioni gia' viste nello STEMI (neuropatia autonomica, soglie di percezione del dolore alterate).",
+      "farmaci_correlati": [
+        {
+          "nome": "Ossigeno",
+          "indicazione": "Solo se SpO2 < 90% o segni di distress respiratorio, secondo linee guida ESC 2023 (non routinario in normossia)",
+          "meccanismo_azione": "Aumenta il contenuto di ossigeno disponibile nel sangue arterioso per il miocardio ischemico quando presente ipossiemia; in normossia non offre benefici dimostrati.",
+          "fonte": "ESC Guidelines for ACS 2023"
+        },
+        {
+          "nome": "Acido acetilsalicilico (ASA)",
+          "indicazione": "Antiaggregante, somministrazione precoce se non controindicato — dosaggio da protocollo aziendale/medico",
+          "meccanismo_azione": "Inibisce in modo irreversibile la COX-1 piastrinica, bloccando la sintesi di trombossano A2 e riducendo l'aggregazione piastrinica, rallentando la crescita del trombo sulla placca instabile.",
+          "fonte": "ESC Guidelines for ACS 2023"
+        },
+        {
+          "nome": "Nitroglicerina",
+          "indicazione": "Vasodilatatore per il dolore anginoso persistente, controindicata in ipotensione — dosaggio da protocollo aziendale/medico",
+          "meccanismo_azione": "Convertita in ossido nitrico, attiva la guanilato ciclasi aumentando il cGMP e causando venodilatazione (riduzione del precarico e del lavoro cardiaco) e vasodilatazione coronarica diretta, migliorando la perfusione della zona ischemica.",
+          "fonte": "ESC Guidelines for ACS 2023"
+        }
+      ],
+      "interazioni_sistemiche": "A differenza dello STEMI, la strategia di riperfusione d'urgenza extraospedaliera (fibrinolisi) non e' generalmente indicata nell'NSTEMI: la gestione definitiva (coronarografia, eventuale angioplastica) viene stratificata in base al rischio e avviene tipicamente in ospedale in tempi che vanno da urgenti a differiti di qualche giorno, a seconda della classe di rischio del paziente.",
+      "fonte": "ESC Guidelines for the management of acute coronary syndromes, 2023",
+      "ultimo_aggiornamento_fonte": "2023"
+    }
+  ]
+}
